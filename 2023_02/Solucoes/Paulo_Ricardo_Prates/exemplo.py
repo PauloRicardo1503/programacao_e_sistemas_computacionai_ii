@@ -31,8 +31,6 @@ def main():
 
     # Como verificar as posições dos numero do usuario com o numero pra adivinhar.
     
-
-
 def verifica_numero_valido(numero):
         if len(numero) == 3:
             return True
@@ -45,7 +43,6 @@ def verifica_igualdade(numero):
             print('voce ACERTOU.')
         else:
             print('voce errou.')
-
 
 if __name__ == '__main__':
          main()
