@@ -9,7 +9,7 @@ def main():
 
     montante = calcula_montante(capital, taxa, periodos, aporte)
     for i in range (11):
-        lista_valores((capital + aporte) * (1 + taxa/100) ** periodos)
+        
         print(lista_valores)
         print('O valor final do investimento depois de {} periodos é: {}'.format(periodos,aporte, round(montante, 2)))
 
